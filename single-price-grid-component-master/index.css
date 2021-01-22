@@ -1,0 +1,135 @@
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+.upper {
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 215px;
+}
+.upper h2 {
+    color: rgb(42, 178, 176);
+    font-weight: 700;
+    height: 25px;
+    padding-top: 20px;
+}
+.upper h3 {
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+    font-size: 18px;
+    height: 20px;
+}
+.upper p {
+    color: hsl(218, 22%, 67%);
+    line-height: 25px;
+}
+body {
+    font-size: 16px;
+    font-family: 'Karla',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(204, 43%, 93%);
+    margin: 0;
+}
+.parent {
+    width: 635px;
+    height: 475px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 10px;
+    box-shadow: hsla(216, 22%, 67%, 0.493) 5px 10px 20px;
+}
+.lower {
+    display: flex;
+    height: 260px;
+}
+.first {
+    flex: 1;
+    background-color: hsl(179, 62%, 43%);
+    border-bottom-left-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+.sub {
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 130px;
+    line-height: 20px;
+}
+.sub p {
+    color: hsl(204, 43%, 93%);
+    height: 20px;
+}
+.pricetag {
+    display: flex;
+    align-items: center;
+}
+.pricetag span:first-child {
+    color: white;
+    font-size: 35px;
+}
+.pricetag span:last-child {
+    color: hsla(203, 44%, 93%, 0.829);
+    font-weight: 400;
+    padding-left: 15px;
+}
+.second {
+    flex: 1;
+    background-color: rgba(42, 178, 176, 0.733);
+    border-bottom-right-radius: 10px;
+}
+.second h3 {
+    color: white;
+    padding-top: 20px;
+    padding-left: 40px;
+    line-height: 25px;
+}
+.first h3 {
+   color: white;
+}
+.first span {
+    color: hsl(204, 43%, 93%);
+}
+.span {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    color: rgba(255, 255, 255, 0.651);
+}
+.button {
+    width: 235px;
+    height: 48px;
+    background-color:hsl(71, 73%, 54%);
+    border-color: hsl(71, 73%, 54%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: grey 0px 0px 10px;
+}
+.button span {
+    color: white;
+    font-weight: 700;
+}
+html,body {
+    height: 100%;
+}
+footer {
+    position: absolute;
+    bottom: 0%;
+}
